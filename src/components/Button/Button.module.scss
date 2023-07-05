@@ -1,0 +1,15 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    padding: 1rem;
+    background: var(--color-black);
+    border: 0;
+    border-radius: 6.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: var(--color-white);
+}

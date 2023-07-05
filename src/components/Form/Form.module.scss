@@ -1,0 +1,45 @@
+@import 'src/styles/mixins';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    background: #ebebeb;
+    padding: 1.5rem 1rem 5.625rem;
+
+    @include breakpoint-up(large) {
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+.img {
+    width: 12.5rem;
+    height: 9.1875rem;
+
+    @include breakpoint-up(large) {
+        width: 24.125rem;
+        height: 26.375rem;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.input {
+    width: 100%;
+    padding: 1rem;
+    color: var(--gray-color);
+    font-size: 0.875rem;
+    font-family: inherit;
+    line-height: 1.25rem;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black-tinted);
+    border-radius: 6.25rem;
+    outline: none;
+    caret-color: var(--black-color);
+  }

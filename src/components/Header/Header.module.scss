@@ -1,0 +1,41 @@
+@import 'src/styles/mixins';
+
+.root {
+    background-color: var(--color-bg);
+    padding: 1.5rem 1rem;
+
+    .link {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 2rem;
+        height: 2.25rem;
+        margin-right: 0.875rem;
+    }
+
+    span {
+        color: var(--color-text);
+        font-size: var(--font-md);
+        font-weight: 700;
+        line-height: 120%;
+    }
+}
+
+@include breakpoint-up(large) {
+    .root {
+        padding: 2.1875rem 7.5rem;
+
+        .logo {
+            width: 2.375rem;
+            height: 2.75rem;
+            margin-right: 1rem;
+        }
+
+        .span {
+            font-size: var(--font-lg);
+        }
+    }
+}
