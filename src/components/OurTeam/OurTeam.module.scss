@@ -22,9 +22,11 @@
 }
 
 .teamMembers {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin: 0 auto;
 
     @include breakpoint-up(large) {
         flex-direction: row;
@@ -33,6 +35,7 @@
 }
 
 .teamMember {
+    width: min-content;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,0 +1,43 @@
+<svg width="89" height="98" viewBox="0 0 89 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Union" filter="url(#filter0_diiii_361_2688)">
+<path d="M60.056 63.3248C55.4514 66.4041 50.0379 68.0476 44.5 68.0476V56.8381C47.8227 56.8381 51.0708 55.852 53.8336 54.0044C56.5963 52.1568 58.7496 49.5308 60.0212 46.4584C61.2927 43.386 61.6254 40.0052 60.9772 36.7435C60.329 33.4819 58.7289 30.4858 56.3794 28.1343C54.0299 25.7828 51.0364 24.1814 47.7775 23.5326C44.5187 22.8838 41.1407 23.2168 38.0709 24.4894C35.0011 25.7621 32.3773 27.9172 30.5313 30.6823C28.6853 33.4474 27.7 36.6983 27.7 40.0238L16.5 40.0238C16.5 34.4812 18.1422 29.0631 21.2189 24.4546C24.2955 19.8461 28.6685 16.2543 33.7849 14.1332C38.9012 12.0121 44.531 11.4572 49.9625 12.5385C55.394 13.6198 60.3831 16.2888 64.299 20.208C68.2149 24.1272 70.8816 29.1206 71.962 34.5566C73.0424 39.9927 72.4879 45.6274 70.3686 50.7481C68.2494 55.8687 64.6605 60.2455 60.056 63.3248Z" fill="#4BE62E"/>
+<path d="M54.1822 40.8095C54.1822 46.4989 49.574 51.1111 43.8894 51.1111C38.2048 51.1111 33.5966 46.4989 33.5966 40.8095C33.5966 35.1201 38.2048 30.5079 43.8894 30.5079C49.574 30.5079 54.1822 35.1201 54.1822 40.8095Z" fill="#4BE62E"/>
+<path d="M44.4128 78C41.1596 78 37.9383 77.3587 34.9327 76.1127C31.9272 74.8667 29.1963 73.0404 26.8959 70.7381C24.5956 68.4358 22.7708 65.7026 21.5259 62.6945C20.281 59.6864 19.6402 56.4623 19.6402 53.2064H29.5492C29.5492 55.1599 29.9337 57.0944 30.6806 58.8992C31.4276 60.7041 32.5224 62.344 33.9027 63.7254C35.2829 65.1068 36.9214 66.2026 38.7247 66.9502C40.5281 67.6978 42.4609 68.0825 44.4128 68.0825V78Z" fill="#4BE62E"/>
+</g>
+<defs>
+<filter id="filter0_diiii_361_2688" x="0.5" y="0" width="88" height="98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0357812 0 0 0 0 0.954167 0 0 0 0 0.568445 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_361_2688"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_361_2688" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="3" dy="2"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_361_2688"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="3"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.294118 0 0 0 0 0.901961 0 0 0 0 0.180392 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect2_innerShadow_361_2688" result="effect3_innerShadow_361_2688"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-2" dy="-3"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.439216 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect3_innerShadow_361_2688" result="effect4_innerShadow_361_2688"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1" dy="-2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.294118 0 0 0 0 0.901961 0 0 0 0 0.180392 0 0 0 1 0"/>
+<feBlend mode="normal" in2="effect4_innerShadow_361_2688" result="effect5_innerShadow_361_2688"/>
+</filter>
+</defs>
+</svg>
