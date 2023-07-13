@@ -9,13 +9,24 @@ export const Form = () => {
     const [email, setEmail] = useState('');
     const [dataSent, setDataSent] = useState(false);
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const myForm = event.target;
+        const formData = new FormData(myForm);
 
         if (company && email) {
-            setDataSent(true);
-            setEmail('');
-            setCompany('');
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString(),
+            })
+            .then(() => {
+                setDataSent(true);
+                setEmail('');
+                setCompany('');
+            })
+            .catch(console.error);
         }
     };
 
@@ -44,10 +55,10 @@ export const Form = () => {
                 />
 
                 <form
+                    name="contact"
                     method="post"
                     className={styles.form}
                     onSubmit={handleSubmit}
-                    name="contact"
                     data-netlify="true"
                     netlify-honeypot="bot-field"
                 >
