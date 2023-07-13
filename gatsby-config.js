@@ -45,5 +45,6 @@ module.exports = {
         implementation: require("node-sass"),
       },
     },
+    `gatsby-plugin-netlify`
   ],
 }

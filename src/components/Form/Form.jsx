@@ -9,7 +9,9 @@ export const Form = () => {
     const [email, setEmail] = useState('');
     const [dataSent, setDataSent] = useState(false);
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
         if (company && email) {
             setDataSent(true);
             setEmail('');
@@ -41,16 +43,26 @@ export const Form = () => {
                     objectFit="contain"
                 />
 
-                <div className={styles.form}>
+                <form
+                    method="post"
+                    className={styles.form}
+                    onSubmit={handleSubmit}
+                    name="contact"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
+                >
                     <h2>
                         Start collecting your payments from your customers automatically from the first day
                     </h2>
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <input
                         type="text"
                         className={styles.input}
                         value={company}
                         onChange={handleCompanyChange}
                         placeholder="Enter Company name"
+                        name="company"
                     />
                     <input
                         type="email"
@@ -58,10 +70,11 @@ export const Form = () => {
                         value={email}
                         onChange={handleEmailChange}
                         placeholder="Enter your e-mail"
+                        name="email"
                     />
 
-                    <Button onClick={handleSubmit}>Get started</Button>
-                </div>
+                    <Button type="submit">Get started</Button>
+                </form>
             </> : (
                 <div className={styles.thanks}>
                     <img src={OutlinedLogo} alt="logo" />
