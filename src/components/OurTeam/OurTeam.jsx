@@ -28,23 +28,6 @@ export const OurTeam = () => {
 
                 <div className={styles.teamMember}>
                     <StaticImage
-                        src="../../images/yerzhan.png"
-                        loading="lazy"
-                        formats={["auto", "webp", "avif"]}
-                        alt="Yerzhan"
-                        className={styles.memberImg}
-                    />
-
-                    <div className={styles.memberInfo}>
-                        <h4 className={styles.memberName}>Yerzhan Mukhamejan</h4>
-                        <span className={styles.memberDescription}>CTO&Co-Founder, 4 years CTO of a payment company</span>
-
-                        <Link className={styles.memberLink} to="/">Learn more</Link>
-                    </div>           
-                </div>
-
-                <div className={styles.teamMember}>
-                    <StaticImage
                         src="../../images/rustam.png"
                         loading="lazy"
                         formats={["auto", "webp", "avif"]}
